@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(skyblue, white); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    }
+h1{
+    background-color: gray;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Press Start 2P";
+    border-style: ridge;
+    border-width: 5px;
+    padding: 8px;
+    }
+h2{
+    background-color: gray;
+    color: white;
+    font-size: small;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Press Start 2P";
+    font-size: medium;
+    border-style:ridge;
+    border-width: 5px;
+    padding:10px;
+    }
+p{
+    background-color: gray;
+    color: limegreen;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Press Start 2P";
+    border-style: ridge;
+    border-width: 5px;
+    padding: 8px;
+    }
+.button-container {
+    display: flex;
+    font-family: "Press Start 2P";
+    }
+button{color:limegreen;
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Press Start 2P";
+    border-style: ridge;
+    border-width: 5px;
+    border-color: silver;
+    padding: 8px;
+    }
+button:hover{
+    color:skyblue;
+}
+
+th{font-size: large;
+    color: gray;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: silver;
+    padding: 8px;
+}
+tr{color: gray;
+}
+table, th, td {
+    border: 3px solid gray; 
+}
+
+#box1{border: 1px;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 620px;
+    background-color: gray;
+    border: ridge;
+    padding: 8px;
+    border-color: lightgrey;
+    border-width: 4px;
+
+    position:relative;
+    top: auto;
+    left: auto;
+}
+
+#box2{border: 1px;
+    height: 80%;
+    width: 80%;
+    background-color: lightgray;
+    border: ridge;
+    padding: 8px;
+    border-color: lightgrey;
+    border-width: 4px;
+
+    position:absolute;
+
+    top: 8%;
+    left: 8%;
+
+
+}
